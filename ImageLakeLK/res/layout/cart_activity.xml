@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/md_divider">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="25dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Cart"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="bold"
+            android:textColor="@color/md_disabled_hint_text"
+            android:id="@+id/imd_title"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:background="@color/md_divider"
+        android:id="@+id/crt_msg_content">
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No item found"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/md_disabled_hint_text"
+                android:textSize="20dp"
+                android:gravity="center"
+
+                android:id="@+id/crt_msg" android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" android:layout_marginTop="188dp"/>
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/refresh"
+                android:id="@+id/crt_btn_refresh"
+                android:fontFamily="sans-serif"
+                android:textSize="20dp"
+                android:background="@drawable/normal_next_button"
+                android:padding="5dp"
+                android:layout_below="@+id/textView4" android:layout_centerHorizontal="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/please_chek"
+                android:fontFamily="sans-serif-light"
+                android:id="@+id/textView4"
+                android:padding="10dp"
+                android:layout_below="@+id/crt_msg" android:layout_centerHorizontal="true"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:visibility="visible"
+        android:id="@+id/crt_list_content"
+
+        android:layout_gravity="right">
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:id="@+id/crt_list" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/crt_load_content"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal">
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/crt_loading"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:background="#191B24"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/md_text_white"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text sadasd dsadsadad"
+            android:id="@+id/crt_total" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Download"
+                android:layout_gravity="right"
+                android:background="@drawable/green_buttons"
+                android:layout_margin="2dp"
+                android:id="@+id/crt_dwn" />
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

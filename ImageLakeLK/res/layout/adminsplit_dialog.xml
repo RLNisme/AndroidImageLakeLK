@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/admin_split_percent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/admin_title" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="Percentage"
+        android:id="@+id/adsplit_percent" />
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:id="@+id/btn_up_adsplit_cancel" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="@string/update"
+            android:id="@+id/btn_up_adsplit" />
+    </LinearLayout>
+
+</LinearLayout>

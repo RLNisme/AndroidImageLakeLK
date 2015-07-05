@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/white_panel"
+        >
+
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/md_text_white"
+            android:src="@drawable/ic_action_picture_d"
+            android:id="@+id/upm_img" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="left"
+            android:paddingTop="0dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+
+                android:gravity="left"
+                android:textColor="#332847"
+                android:fontFamily="sans-serif-light"
+                android:id="@+id/upm_title" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Date :"
+
+                    android:fontFamily="sans-serif"
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/textView" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:textColor="#332847"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/upm_date" />
+
+                </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Category :"
+
+                    android:fontFamily="sans-serif"
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/textView2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:textColor="#332847"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/upm_cat" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Seller :"
+
+                    android:fontFamily="sans-serif"
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/textView3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:textColor="#332847"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/upm_seller" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

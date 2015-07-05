@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.im.ImageLakeLK"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="19"/>
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <application android:label="@string/app_name"
+                 android:theme="@android:style/Theme.Holo.Light"
+                 android:icon="@drawable/ic_launcher">
+
+        <activity android:name="MainActivity"
+                  android:theme="@style/MyTheme1"
+
+                  android:label="@string/main_app_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="SignupActivity"
+                  android:theme="@style/MyTheme3"
+                  android:screenOrientation="portrait"
+                  android:parentActivityName=".SignupActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="SigninActivity"
+                  android:theme="@style/MyTheme3"
+                  android:screenOrientation="portrait"
+            android:parentActivityName=".SigninActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AccountActivity"
+                  android:theme="@style/MyTheme3"
+                  android:screenOrientation="portrait"
+                >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".LightBoxActivity"
+                  android:theme="@style/MyTheme3"
+                  android:screenOrientation="portrait"
+                  android:parentActivityName="com.im.ImageLakeLK.LightBoxActivity"
+                >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".DownloadHistoryActivity"
+                  android:theme="@style/MyTheme3"
+                  android:screenOrientation="portrait"
+                  android:parentActivityName="com.im.ImageLakeLK.DownloadHistoryActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".EditProfileActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.EditProfileActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".EditActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.EditActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".ChangePasswordActivity"
+                  android:theme="@style/MyTheme3"
+                  android:screenOrientation="portrait"
+                  android:parentActivityName="com.im.ImageLakeLK.ChangePasswordActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".BecomeaContributor"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.BecomeaContributor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ProfitActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.ProfitActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MyUploadsActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.MyUploadsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".UploadActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.UploadActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".EarningManagementActivity"
+                  android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.EarningManagementActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+         </activity>
+
+
+        <activity android:name=".UserManagementActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.UserManagementActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".PurchaseViaImagesActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.PurchaseViaImagesActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".PurchaseViaPackagesActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.PurchaseViaPackagesActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+
+        <activity android:name=".UploadManagementActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.UploadManagementActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".UploadManagementSingleActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.UploadManagementSingleActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".ImageManagementActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.ImageManagementActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".SettingActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.SettingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".CreditSizeActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.CreditSizeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".CreditPackageActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.CreditPackageActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".SubscriptionPackageActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.SubscriptionPackageActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".ImageSearchActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.ImageSearchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".ImageDetailActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.ImageDetailActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".CartActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.CartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".PackagesActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.PackagesActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+
+        <activity android:name=".SubscriptionActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.SubscriptionActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".CreditActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.CreditActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".PurchaseActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.PurchaseActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".ChangePhoneNoActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.ChangePhoneNoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".RatingActivity"
+            android:theme="@style/MyTheme3"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.im.ImageLakeLK.RatingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+
+
+    </application>
+</manifest>

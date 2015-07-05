@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/ens_uid"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:hint="UserID"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/ens_date"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:hint="Date"
+        android:layout_gravity="center_horizontal" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmed_requests"
+        android:id="@+id/ens_cr"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:layout_gravity="center_horizontal" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_requests"
+        android:id="@+id/ens_nr"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="right">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:fontFamily="sans-serif"
+            android:id="@+id/ens_cancel" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sort"
+            android:fontFamily="sans-serif"
+            android:id="@+id/ens_sort" />
+    </LinearLayout>
+
+</LinearLayout>

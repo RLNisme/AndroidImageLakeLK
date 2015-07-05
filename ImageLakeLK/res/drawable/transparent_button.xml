@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="false">
+        <layer-list>
+
+
+            <!-- BUTTON -->
+            <item >
+                <shape>
+                    <padding android:bottom="3dp"/>
+                    <gradient
+                        android:startColor="#191B24"
+                        android:endColor="#191B24"
+                        android:angle="90" />
+
+
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_pressed="true">
+        <layer-list>
+
+
+            <!-- BUTTON -->
+            <item >
+                <shape>
+                    <padding android:bottom="3dp"/>
+                    <gradient
+                        android:endColor="@color/md_deep_purple_500_50"
+                        android:startColor="@color/md_deep_purple_500_50"
+
+                        android:angle="270" />
+
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+</selector>

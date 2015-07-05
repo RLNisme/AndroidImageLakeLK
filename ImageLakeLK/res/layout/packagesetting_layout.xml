@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_divider"
+
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/day_free"
+            android:textColor="@color/md_text_white"
+            android:fontFamily="sans-serif-light"
+            android:background="@drawable/blue_button"
+            android:textSize="18dp"
+
+            android:layout_marginBottom="2dp"
+            android:id="@+id/btn_daily" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unlimit_free"
+            android:textColor="@color/md_text_white"
+            android:fontFamily="sans-serif-light"
+            android:background="@drawable/blue_button"
+            android:textSize="18dp"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/btn_unlimted" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crd_pack"
+            android:textColor="@color/md_text_white"
+            android:fontFamily="sans-serif-light"
+            android:background="@drawable/blue_button"
+            android:textSize="18dp"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/btn_crdpack" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sub_pack"
+            android:textColor="@color/md_text_white"
+            android:fontFamily="sans-serif-light"
+            android:background="@drawable/blue_button"
+            android:textSize="18dp"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/btn_subpack" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crd_size"
+            android:textColor="@color/md_text_white"
+            android:fontFamily="sans-serif-light"
+            android:background="@drawable/blue_button"
+            android:textSize="18dp"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/btn_crdsize" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/split_per"
+            android:textColor="@color/md_text_white"
+            android:fontFamily="sans-serif-light"
+            android:background="@drawable/blue_button"
+            android:textSize="18dp"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/btn_spitpack" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/min_amo"
+            android:textColor="@color/md_text_white"
+            android:fontFamily="sans-serif-light"
+            android:background="@drawable/blue_button"
+            android:textSize="18dp"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/btn_minpack" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_dwn"
+            android:textColor="@color/md_text_white"
+            android:fontFamily="sans-serif-light"
+            android:background="@drawable/blue_button"
+            android:textSize="18dp"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/btn_dwn" />
+    </LinearLayout>
+</LinearLayout>

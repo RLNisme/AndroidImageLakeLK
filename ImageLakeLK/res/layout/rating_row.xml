@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_panel">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+
+        android:layout_marginBottom="5dp"
+        >
+
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="90dp"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/md_text_white"
+            android:src="@drawable/ic_action_picture_d"
+            android:id="@+id/upm_img" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/upm_img"
+            android:paddingTop="0dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_vertical|center"
+                android:layout_height="fill_parent">
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent">
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            style="@style/StarRatingBar"
+            android:id="@+id/upm_rb"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/upm_img" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

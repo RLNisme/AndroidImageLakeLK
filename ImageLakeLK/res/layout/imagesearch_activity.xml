@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:id="@+id/is_box"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@color/md_divider">
+
+        <AutoCompleteTextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:hint="Search by keyword"
+            android:completionThreshold="2"
+            android:id="@+id/is_key" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search"
+            android:id="@+id/is_search" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:background="@color/md_divider"
+        android:id="@+id/is_msg_content">
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No item found"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/md_disabled_hint_text"
+                android:textSize="20dp"
+                android:gravity="center"
+
+                android:id="@+id/is_msg" android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" android:layout_marginTop="188dp"/>
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/refresh"
+                android:id="@+id/is_btn_refresh"
+                android:fontFamily="sans-serif"
+                android:textSize="20dp"
+                android:background="@drawable/normal_next_button"
+                android:padding="5dp"
+                android:layout_below="@+id/textView4" android:layout_centerHorizontal="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/please_chek"
+                android:fontFamily="sans-serif-light"
+                android:id="@+id/textView4"
+                android:padding="10dp"
+                android:layout_below="@+id/is_msg" android:layout_centerHorizontal="true"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:visibility="visible"
+        android:id="@+id/is_list_content"
+
+        android:layout_gravity="right">
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="420dp"
+
+            android:id="@+id/is_list" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/is_load_content"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal">
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/is_loading"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:background="#191B24"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="150dp"
+            android:background="#191B24"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/dark_left_arrow"
+                android:layout_gravity="left"
+
+                android:background="@drawable/transparent_button"
+                android:id="@+id/is_left" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="90dp"
+            android:background="#191B24"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="1"
+                android:textColor="@color/md_text_white"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/pageno" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="145dp"
+            android:background="#191B24"
+            android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/dark_right_arrow"
+            android:background="@drawable/transparent_button"
+            android:layout_gravity="right"
+            android:id="@+id/is_right" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

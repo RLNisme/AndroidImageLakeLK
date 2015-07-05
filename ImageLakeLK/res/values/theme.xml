@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--theme01-->
+    <style name="MyTheme1"
+           parent="android:Theme.Holo.Light.NoActionBar">
+        <item name="android:actionBarStyle">@null</item>
+
+    </style>
+
+    <style name="myActionBarStyle"
+           parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/md_cyan_400</item>
+    </style>
+
+    <style name="myActionBarStyle2"
+           parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#191B24</item>
+    </style>
+    <!--Theme02-->
+    <style name="MyTheme2"
+           parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/myActionBarStyle</item>
+
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+    <!--Theme03-->
+    <style name="MyTheme3"
+           parent="android:Theme.Holo.Light.DarkActionBar"
+           >
+        <item name="android:actionBarStyle">@style/myActionBarStyle2</item>
+        
+        <item name="android:icon">@android:color/transparent</item>
+
+    </style>
+
+
+
+
+</resources>

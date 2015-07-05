@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/md_brown_500_50">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Start a 7-day Free Trial"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/md_text_white"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center"
+            android:textSize="24dp"
+            android:id="@+id/ft1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="5 Downloads. Every day. Any Image.No Strings Attached."
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/md_text_white"
+            android:fontFamily="sans-serif"
+            android:textSize="13dp"
+            android:layout_gravity="center"
+
+            android:id="@+id/ft2"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/md_text_white"
+            android:text="Start my free trial."
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/blue_button"
+            android:id="@+id/ftb" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Cancel at any time. Renews to a subscription plan. Trials are for new users only. "
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/md_text_white"
+            android:fontFamily="sans-serif"
+            android:textSize="14dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+
+            android:id="@+id/textView2"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Try our Unlimited Free Trial! "
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+
+            android:fontFamily="sans-serif"
+            android:layout_gravity="left"
+            android:textSize="24dp"
+            android:id="@+id/textView"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="2 free image per 30 days. Every 30 days. No commitment. Upgrade whenever you're ready. "
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:textSize="16dp"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="left"
+
+            android:id="@+id/ut1"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start my 2 image 30 day trial."
+            android:background="@drawable/gray_buttons"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/md_text_white"
+            android:id="@+id/utb" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@color/md_falcon_A400_25"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Pay in advance for Credits. Use them as you need them."
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+
+            android:fontFamily="sans-serif"
+            android:layout_gravity="left"
+            android:textSize="16dp"
+            android:id="@+id/textView3"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Credit Package"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/md_text_white"
+            android:background="@drawable/lightblue_button"
+            android:id="@+id/cb" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subscription Package"
+            android:textColor="@color/md_text_white"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/lightblue_button"
+            android:id="@+id/sb" />
+    </LinearLayout>
+
+
+</LinearLayout>

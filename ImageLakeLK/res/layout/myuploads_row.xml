@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/white_panel"
+        >
+
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/myup_img" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="left"
+            android:paddingTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+
+                android:gravity="left"
+                android:textColor="#332847"
+                android:fontFamily="sans-serif-light"
+                android:id="@+id/myup_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+
+                android:textColor="#332847"
+                android:fontFamily="sans-serif"
+                android:padding="5dp"
+                android:id="@+id/myup_img_id" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:textColor="#332847"
+                android:fontFamily="sans-serif"
+                android:padding="5dp"
+                android:id="@+id/myup_state" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

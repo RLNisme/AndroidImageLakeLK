@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="90dp"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/md_text_white"
+            android:src="@drawable/ic_action_picture_d"
+            android:id="@+id/crt_img" />
+
+        <LinearLayout
+            android:orientation="vertical"
+
+            android:layout_marginTop="2dp"
+            android:paddingBottom="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:textStyle="bold"
+
+                android:textColor="#332847"
+                android:fontFamily="sans-serif-light"
+                android:id="@+id/crt_title" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:textColor="#332847"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/crt_dim" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Credit :"
+
+                    android:fontFamily="sans-serif"
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/textView2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:textColor="#332847"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginTop="2dp"
+                    android:id="@+id/crt_cd" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="New Request"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:textSize="10dp"
+                android:background="@color/md_blue_700"
+                android:textColor="@color/md_text_white"
+                android:id="@+id/crd_state" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/opn_add_subadmin"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/md_text_white"
+                    android:fontFamily="sans-serif-light"
+                    android:background="@drawable/green_buttons"
+                    android:id="@+id/uset_btn_newsub" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/opn_update_subadmin"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/md_text_white"
+                    android:fontFamily="sans-serif-light"
+                    android:background="@drawable/green_buttons"
+                    android:id="@+id/uset_btn_upsub" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/md_divider">
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    android:id="@+id/uset_list" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/uset_load_content"
+                    android:visibility="gone">
+                    <ProgressBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/uset_loading"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/uset_msg_content">
+
+                    <TextView android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="No item found"
+                        android:fontFamily="sans-serif"
+                        android:textColor="@color/md_disabled_hint_text"
+                        android:textSize="20dp"
+                        android:gravity="center"
+
+                        android:id="@+id/uset_msg" android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" android:layout_marginTop="138dp"/>
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/refresh"
+                        android:id="@+id/uset_btn_refresh"
+                        android:fontFamily="sans-serif"
+                        android:textSize="20dp"
+                        android:background="@drawable/normal_next_button"
+                        android:padding="5dp"
+                        android:layout_below="@+id/textView4" android:layout_centerHorizontal="true"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/please_chek"
+                        android:fontFamily="sans-serif-light"
+                        android:id="@+id/textView4"
+                        android:padding="10dp"
+                        android:layout_below="@+id/uset_msg" android:layout_centerHorizontal="true"/>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/md_grey_200">
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/loadin_theme">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/app_name"
+                android:textSize="30dp"
+                android:textColor="#332847"
+                android:id="@+id/textView2"
+                android:layout_marginBottom="79dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:id="@+id/load_network"
+
+            android:layout_gravity="center_horizontal"/>
+</LinearLayout>
+

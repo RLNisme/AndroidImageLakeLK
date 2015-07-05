@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_white_1000">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:background="@color/md_cyan_500"
+            android:layout_height="fill_parent">
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:layout_width="fill_parent"
+            android:background="@color/md_grey_100"
+            android:layout_height="60dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:textSize="25dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/earning"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="bold"
+                android:textColor="@color/md_disabled_hint_text"
+                android:id="@+id/title_signup"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/earning_h2"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="10dp"
+                        android:fontFamily="sans-serif"
+                        android:id="@+id/textView3"/>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="15dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="@string/earnings_summery"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:textColor="#332847"
+                                android:fontFamily="sans-serif-light"
+                                android:id="@+id/textView"/>
+
+
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginBottom="3dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:text="@string/pending_earnings"
+                                    android:fontFamily="sans-serif"
+                                    android:gravity="left"
+                                    android:id="@+id/textView22" />
+
+                                <TextView
+                                    android:layout_width="215dp"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:text="$0.0"
+                                    android:gravity="right"
+                                    android:textColor="@color/md_red_400"
+                                    android:layout_marginLeft="10dp"
+                                    android:fontFamily="sans-serif"
+                                    android:id="@+id/pending" />
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginBottom="3dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:text="@string/account_balance"
+                                    android:fontFamily="sans-serif"
+                                    android:id="@+id/textView24" />
+
+                                <TextView
+                                    android:layout_width="217dp"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:text="$0.0"
+                                    android:gravity="right"
+                                    android:fontFamily="sans-serif"
+                                    android:layout_marginLeft="10dp"
+                                    android:id="@+id/account" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="fill_parent"
+                                android:layout_height="3dp"
+                                android:layout_marginLeft="15dp"
+                                android:background="@color/md_divider"></LinearLayout>
+
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="3dp"
+                                android:paddingTop="3dp"
+                                android:paddingBottom="6dp"
+
+                                android:background="@color/md_green_200"
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:text="@string/net_earnings"
+                                    android:fontFamily="sans-serif"
+                                    android:id="@+id/textView26" />
+
+                                <TextView
+                                    android:layout_width="240dp"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:text="$0.0"
+                                    android:gravity="right"
+                                    android:fontFamily="sans-serif"
+                                    android:layout_marginLeft="10dp"
+
+                                    android:id="@+id/net" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="15dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                android:text="@string/payment_summery"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginRight="10dp"
+                                android:textColor="#332847"
+                                android:fontFamily="sans-serif-light"
+                                android:id="@+id/textView2"/>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:text="@string/notice"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:textColor="@color/md_text_white"
+                                    android:padding="2dp"
+                                    android:background="@color/md_red_300"
+                                    android:fontFamily="sans-serif"
+                                    android:id="@+id/textView4"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:text="@string/notice_p"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginLeft="5dp"
+
+                                    android:fontFamily="sans-serif"
+                                    android:id="@+id/textView5"/>
+
+                                </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <EditText
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="textEmailAddress"
+                                    android:ems="10"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="5dp"
+                                    android:hint="@string/paypal"
+                                    android:fontFamily="sans-serif"
+                                    android:id="@+id/em_paypal" />
+
+                                <Button
+                                    style="?android:attr/buttonStyleSmall"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:text="@string/request"
+                                    android:fontFamily="sans-serif"
+                                    android:id="@+id/btn_paypal" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginTop="5dp">
+
+                                <LinearLayout
+                                    android:orientation="vertical"
+                                    android:layout_width="155dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_height="2dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_gravity="center"
+                                    android:background="@color/md_divider"></LinearLayout>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="20dp"
+                                    android:textAppearance="?android:attr/textAppearanceSmall"
+                                    android:text="OR"
+                                    android:fontFamily="sans-serif"
+                                    android:textStyle="bold"
+                                    android:id="@+id/textView28" />
+
+                                <LinearLayout
+                                    android:orientation="vertical"
+                                    android:layout_width="155dp"
+                                    android:layout_height="2dp"
+                                    android:layout_marginRight="15dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_gravity="center"
+                                    android:background="@color/md_divider"></LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent">
+
+                                <EditText
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="textEmailAddress"
+                                    android:ems="10"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="5dp"
+                                    android:hint="@string/paysa"
+                                    android:fontFamily="sans-serif"
+                                    android:id="@+id/em_paysa" />
+
+                                <Button
+                                    style="?android:attr/buttonStyleSmall"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="15dp"
+                                    android:text="@string/request"
+                                    android:fontFamily="sans-serif"
+                                    android:id="@+id/btn_paysa" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>

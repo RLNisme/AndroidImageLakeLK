@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ImageLakeLK</string>
+    <string name="main_app_title">ImageLK</string>
+    <string name="home_msg">Explore millions of images you can only get from IamgeLake.</string>
+    <string name="network_error">Network error,Please try again.</string>
+    <string name="retry">Retry</string>
+    <string name="signin">Sign In</string>
+    <string name="remin">Remember me</string>
+    <string name="forget_password">Forgot Password ?</string>
+    <string name="refresh">Refresh</string>
+    <string name="please_chek">Please check and refresh</string>
+
+    <string name="signup">Sign Up</string>
+    <string name="user_name">User Name</string>
+    <string name="email">Email</string>
+    <string name="phnno">Phone No</string>
+    <string name="password_msg">At least 6 characters</string>
+    <string name="password">Password</string>
+    <string name="con_password">Confirm Password</string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="privacy_policy">Privacy Ploicy</string>
+    <string name="policies_phara">By tapping "Sign Up" above,you are agreeing to the </string>
+    <string name="and">and</string>
+
+    <string name="not_a_member">Not a member?</string>
+
+
+    <string name="admin_income">Income</string>
+    <string name="admin_users">Users</string>
+    <string name="admin_images">Images</string>
+
+    <string name="drawer_open">Open Navigation</string>
+    <string name="drawer_close">Close Navigation</string>
+
+    <string name="sort_lightbox">Sort LightBox</string>
+    <string-array name="sort_lightbox_by">
+
+        <item >Date</item>
+    </string-array>
+    <string name="sort_downloadhistory">Sort Download History</string>
+    <string-array name="sort_downloadhistory_by">
+
+        <item >Date</item>
+        <item >Credits</item>
+    </string-array>
+
+    <string name="profile">Profile</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="edit_btn">Edit Profile</string>
+    <string name="change_password_btn">Change Password</string>
+    <string name="edit_msg">Your profile information will not be shared with marketers or others for any reason.
+                            Please see our privacy policy.</string>
+    <string name="profile_msg">Organize your profile details here,public profile is what others who interested in your pictures whould see and private profile details are for ImageLake use only,you can update your profile details by simply clicking "Edit".</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit">Edit</string>
+    <string name="update_info">Update Your Profile Information</string>
+    <string name="change_password_title">Change Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="change_password_info">Change your password information</string>
+
+    <string name="btn_contributor">Become a contributor</string>
+    <string name="become_contributor">Three Simple Steps to Becoming a Imagelake contributor</string>
+    <string name="become_contributor_pahara">Some simple steps to complete and you will be well on your way to earning money from your images. </string>
+
+    <string name="become_step_1">1</string>
+    <string name="become_step_1_title">Read Our Tutorial</string>
+    <string name="become_step_1_para">Read the contributor Tutorial carefully and completely. There is legality surrounding the sale of digital images and you must understand the rules.</string>
+
+    <string name="become_step_2">2</string>
+    <string name="become_step_2_title">Upload Your Images</string>
+    <string name="become_step_2_para">Upload images via browser. Once uploaded, you can add or delete associate images with model releases,and submit them for final approval.</string>
+
+    <string name="become_step_3">3</string>
+    <string name="become_step_3_title">Copyright Information</string>
+    <string name="become_step_3_para">Uploading images will be register for this images</string>
+    <string name="contributor_info">I agree to the Contributor Agreement</string>
+
+
+    <string name="earning">Earnings</string>
+    <string name="earning_h2">Review information about photos you have sold here.you will see options that allow you to request payout of your earnings.</string>
+    <string name="earnings_summery">Earning Summary</string>
+    <string name="payment_summery">Payment Preferences*</string>
+    <string name="pending_earnings">Pending Earnings</string>
+    <string name="account_balance">Account Balance</string>
+    <string name="net_earnings">Net Earnings</string>
+    <string name="notice">Notice</string>
+    <string name="notice_p"> Must be an established account</string>
+    <string name="paypal">PayPal Account(E-mail)</string>
+    <string name="paysa">PaySa Account(E-mail)</string>
+    <string name="request">Request</string>
+
+
+    <string name="remove">Remove</string>
+    <string name="remove_msg">Remove this image</string>
+    <string name="image_title">Image Title</string>
+    <string name="select_image">Select an Image</string>
+
+    <string name="upload">Upload</string>
+
+
+    <string name="sort">Sort</string>
+    
+    <string name="confirmed_requests">Confirmed Requests </string>
+    <string name="new_requests">New Requests </string>
+    <string name="earning_msg">Are you sure?If you click "Cancel" request will be cancel,If you click "Settled" request will confirm.</string>
+
+    <string name="settle">Settle</string>
+    <string name="customer">Customers</string>
+    <string name="Contributor">Contributors</string>
+
+    <string name="active">Active</string>
+    <string name="inactive">Inactive</string>
+    <string name="update">Update</string>
+
+    <string name="choose">Choose</string>
+
+    <string name="via_image">Via Image</string>
+    <string name="via_package">Via Package</string>
+
+    <string name="purchase_date">Purchase date: </string>
+    <string name="expire_date">Expire date: </string>
+
+    <string-array name="packages">
+        <item>Subscription</item>
+        <item>Credit</item>
+    </string-array>
+
+    <string name="pur_date">Purchase Date</string>
+    <string name="exp_date">Expire Date</string>
+
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="date">Date :</string>
+    <string name="category">Category :</string>
+    <string name="buyer">Buyer :</string>
+    <string name="seller">Seller :</string>
+    <string name="credit">Credits :</string>
+
+    <string name="opn_add_subadmin">Open add new sub admin portal</string>
+    <string name="cls_add_subadmin">Close add new sub admin portal</string>
+
+    <string name="opn_update_subadmin">Open update sub admin portal</string>
+    <string name="cls_update_subadmin">Close update new sub admin portal</string>
+    <string name="block">Block</string>
+
+    <string-array name="slice">
+        <item>Select slice type</item>
+        <item>3840 X 2160</item>
+        <item>2880 X 1620</item>
+        <item>2400 X 1350</item>
+        <item>2048 X 1152</item>
+        <item>1920 X 1080</item>
+        <item>1366 X 768</item>
+        <item>1024 X 576</item>
+    </string-array>
+
+    <string name="add_slice">Add Slice</string>
+
+    <string name="slice_msg">Do you want to remove this.</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="add_user_type">Add User Type</string>
+    <string name="add_privilages">Add Privileges</string>
+    <string name="add_privi">Add Privilege</string>
+
+    <string name="day_free">Day free trial</string>
+    <string name="unlimit_free">Unlimited free trial</string>
+    <string name="sub_pack">Subscription Package</string>
+    <string name="crd_pack">Credit Package</string>
+    <string name="crd_size">Credit and Size</string>
+    <string name="split_per">Split Percentage</string>
+    <string name="min_amo">Min Earning Request</string>
+    <string name="add_dwn">Add Downloads</string>
+    
+    <string name="days">Days</string>
+    <string name="downloads">Downloads</string>
+
+    <string name="admin_split_percent">Admin split percentage(%)</string>
+    <string name="admin_min_earning">Min earning request($)</string>
+
+    <string-array name="state">
+        <item>Active</item>
+        <item>Inactive</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Daily</item>
+        <item>Monthly</item>
+    </string-array>
+
+    <string name="search">Search</string>
+    <string name="libox">Add to LightBox</string>
+    <string name="start">Start</string>
+
+
+    <string-array name="months">
+
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="yeas">
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+    </string-array>
+
+    <string-array name="countrys">
+        <item>Sri Lanka</item>
+    </string-array>
+</resources>
+

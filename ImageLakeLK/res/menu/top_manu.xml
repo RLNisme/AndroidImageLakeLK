@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/sign"
+        android:icon="@drawable/in_icon"
+        android:title="Si"
+        android:orderInCategory="100"
+        android:showAsAction="always"></item>
+    <item android:id="@+id/cart"
+        android:icon="@drawable/cart"
+        android:title="Cart"
+        android:orderInCategory="100"
+        android:showAsAction="always"></item>
+    <item android:id="@+id/profil"
+        android:icon="@drawable/profile"
+        android:title="Pro"
+        android:orderInCategory="100"
+        android:showAsAction="always"></item>
+    <item android:id="@+id/next_activity"
+        android:icon="@drawable/ic_action_location_off"
+        android:title="Sign out"
+        android:orderInCategory="100"
+        ></item>
+</menu>
